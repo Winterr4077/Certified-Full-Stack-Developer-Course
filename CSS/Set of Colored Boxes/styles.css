@@ -1,0 +1,48 @@
+body {
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+.color-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+}
+
+.color1 {
+  background-color: #30F24E;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.color2 {
+  background-color: rgb(128,0,128);
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.color3 {
+  background-color: orange;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.color4 {
+  background-color: hsl(58, 60%, 26%);
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.color5 {
+  background-color: #FF0000;
+  border-radius: 10px;
+  display: inline-block;
+}

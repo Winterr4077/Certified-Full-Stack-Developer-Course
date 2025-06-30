@@ -1,0 +1,65 @@
+:root {
+  --color0: #ffffff;
+  --color1: #e6f9e6;
+  --color2: #bff0bf;
+  --color3: #8ce88c;
+  --color4: #4ddb4d;
+  --color5: #009900;
+  --solid-border: 1px solid black;
+  --dashed-border: 1px dashed black;
+}
+body {
+  background-color: #acd2bf;
+}
+.available-0 {
+  background-color: var(--color0);
+}
+
+.available-1 {
+  background-color: var(--color1);
+}
+
+.available-2 {
+  background-color: var(--color2);
+}
+
+.available-3 {
+  background-color: var(--color3);
+}
+
+.available-4 {
+  background-color: var(--color4);
+}
+
+.available-5 {
+  background-color: var(--color5);
+}
+
+.sharp td {
+  border-bottom: var(--solid-border);
+}
+
+.half td {
+  border-bottom: var(--dashed-border);
+}
+
+#legend {
+  margin: 1em auto;
+  text-align: center;
+  width: 300px;
+  height: 100px
+}
+
+#legend-gradient {
+  width: 100%;
+  height: 60%;
+  border: var(--solid-border);
+  background-image: linear-gradient(90deg,
+            var(--color0) 0% 17%,
+            var(--color1) 17% 34%,
+            var(--color2) 34% 50%,
+            var(--color3) 50% 67%,
+            var(--color4) 67% 83%,
+            var(--color5) 83% 100%);
+}
+

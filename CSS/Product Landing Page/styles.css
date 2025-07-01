@@ -1,0 +1,15 @@
+#nav-bar {
+  position: fixed;
+  top: 0;
+}
+
+#pricing {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+@media (max-width: 500px) {
+    #pricing {
+        flex-direction: column;
+    }

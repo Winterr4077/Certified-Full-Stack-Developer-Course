@@ -1,1 +1,1 @@
-skipping today bc i feel awful 
+im still fucked

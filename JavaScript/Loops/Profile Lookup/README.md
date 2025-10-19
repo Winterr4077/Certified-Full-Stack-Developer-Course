@@ -1,0 +1,2 @@
+In this lab, you'll create a function that looks up profile information.
+

@@ -1,0 +1,38 @@
+.feature-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  margin: 10px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type='checkbox'] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid grey;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+input[type='checkbox']:checked {
+  background-color: lightgreen;
+  border-color: green;
+  position: relative;
+}
+
+input[type='checkbox']:checked::after {
+  content: "✓";
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 4px;
+}
